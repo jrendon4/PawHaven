@@ -1,4 +1,5 @@
 # PawHaven: 
-Marcherie Kate T. Tilaon
-Jean Xandra Rendon
-Randolph Jan Caballero
+# PawHaven
+Rendon, Jean Xandra
+Tilaon, Marcherie Kate
+Caballero, Randolfh Jan
