@@ -1,0 +1,15 @@
+C:\Users\Jean Xandra Rendon\OneDrive\Desktop\PAWHAVEN\PawHaven\bin\Debug\net10.0\PawHaven.exe
+C:\Users\Jean Xandra Rendon\OneDrive\Desktop\PAWHAVEN\PawHaven\bin\Debug\net10.0\PawHaven.deps.json
+C:\Users\Jean Xandra Rendon\OneDrive\Desktop\PAWHAVEN\PawHaven\bin\Debug\net10.0\PawHaven.runtimeconfig.json
+C:\Users\Jean Xandra Rendon\OneDrive\Desktop\PAWHAVEN\PawHaven\bin\Debug\net10.0\PawHaven.dll
+C:\Users\Jean Xandra Rendon\OneDrive\Desktop\PAWHAVEN\PawHaven\bin\Debug\net10.0\PawHaven.pdb
+C:\Users\Jean Xandra Rendon\OneDrive\Desktop\PAWHAVEN\PawHaven\obj\Debug\net10.0\PawHaven.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jean Xandra Rendon\OneDrive\Desktop\PAWHAVEN\PawHaven\obj\Debug\net10.0\PawHaven.AssemblyInfoInputs.cache
+C:\Users\Jean Xandra Rendon\OneDrive\Desktop\PAWHAVEN\PawHaven\obj\Debug\net10.0\PawHaven.AssemblyInfo.cs
+C:\Users\Jean Xandra Rendon\OneDrive\Desktop\PAWHAVEN\PawHaven\obj\Debug\net10.0\PawHaven.csproj.CoreCompileInputs.cache
+C:\Users\Jean Xandra Rendon\OneDrive\Desktop\PAWHAVEN\PawHaven\obj\Debug\net10.0\PawHaven.sourcelink.json
+C:\Users\Jean Xandra Rendon\OneDrive\Desktop\PAWHAVEN\PawHaven\obj\Debug\net10.0\PawHaven.dll
+C:\Users\Jean Xandra Rendon\OneDrive\Desktop\PAWHAVEN\PawHaven\obj\Debug\net10.0\refint\PawHaven.dll
+C:\Users\Jean Xandra Rendon\OneDrive\Desktop\PAWHAVEN\PawHaven\obj\Debug\net10.0\PawHaven.pdb
+C:\Users\Jean Xandra Rendon\OneDrive\Desktop\PAWHAVEN\PawHaven\obj\Debug\net10.0\PawHaven.genruntimeconfig.cache
+C:\Users\Jean Xandra Rendon\OneDrive\Desktop\PAWHAVEN\PawHaven\obj\Debug\net10.0\ref\PawHaven.dll
