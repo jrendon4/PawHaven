@@ -1,3 +1,5 @@
+using PawHaven.UI;
+
 namespace PawHaven;
 
 static class Program
