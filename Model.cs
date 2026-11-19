@@ -1,4 +1,4 @@
-namespace PawHaven;
+namespace PawHaven.Legacy;
 
 public enum AnimalStatus
 {

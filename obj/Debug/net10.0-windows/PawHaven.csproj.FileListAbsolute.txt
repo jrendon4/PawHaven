@@ -1,0 +1,17 @@
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\obj\Debug\net10.0-windows\PawHaven.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\obj\Debug\net10.0-windows\PawHaven.AssemblyInfoInputs.cache
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\obj\Debug\net10.0-windows\PawHaven.AssemblyInfo.cs
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\obj\Debug\net10.0-windows\PawHaven.csproj.CoreCompileInputs.cache
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\obj\Debug\net10.0-windows\PawHaven.sourcelink.json
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\bin\Debug\net10.0-windows\PawHaven.exe
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\bin\Debug\net10.0-windows\PawHaven.deps.json
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\bin\Debug\net10.0-windows\PawHaven.runtimeconfig.json
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\bin\Debug\net10.0-windows\PawHaven.runtimeconfig.dev.json
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\bin\Debug\net10.0-windows\PawHaven.dll
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\bin\Debug\net10.0-windows\PawHaven.pdb
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\obj\Debug\net10.0-windows\PawHaven.dll
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\obj\Debug\net10.0-windows\refint\PawHaven.dll
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\obj\Debug\net10.0-windows\PawHaven.pdb
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\obj\Debug\net10.0-windows\PawHaven.genruntimeconfig.cache
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\obj\Debug\net10.0-windows\ref\PawHaven.dll
+C:\Users\Jean Xandra Rendon\Downloads\PawHaven\PawHaven\obj\Debug\net10.0-windows\PawHaven.csproj.Up2Date

@@ -1,8 +1,9 @@
+using System.Drawing;
+using System.Windows.Forms;
 using PawHaven.Models;
 
 namespace PawHaven.UI;
 
-// Add / Edit dialog. After OK, read the Result property.
 public class AnimalForm : Form
 {
     private readonly Animal? _existing;

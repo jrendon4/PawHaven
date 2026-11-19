@@ -1,5 +1,7 @@
-using PawHaven.Models;
-using PawHaven.Services;
+using System.Drawing; //sizes
+using System.Windows.Forms; //Form, Button, and TextBox
+using PawHaven.Models; //your app’s animal model types, such as Animal and AnimalStatus
+using PawHaven.Services; //your app’s service types, such as AnimalRepository.
 
 namespace PawHaven.UI;
 
@@ -28,9 +30,9 @@ public class MainForm : Form
 
     private void BuildUi()
     {
-        var btnAdd = new Button { Text = "Add", Width = 80 };
-        var btnEdit = new Button { Text = "Edit", Width = 80 };
-        var btnDelete = new Button { Text = "Delete", Width = 80 };
+        var btnAdd = new Button { Text = "Add", Size = new Size(100, 30) };
+        var btnEdit = new Button { Text = "Edit", Size = new Size(100, 30) };
+        var btnDelete = new Button { Text = "Delete", Size = new Size(100, 30) };
 
         cboFilter.Items.Add("All");
         foreach (var s in Enum.GetValues<AnimalStatus>()) cboFilter.Items.Add(s);
