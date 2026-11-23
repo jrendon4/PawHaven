@@ -56,8 +56,8 @@ public class AnimalForm : Form
         AddRow(table, lblExtra, txtExtra);
         AddRow(table, "Health notes", txtHealth);
 
-        var btnOk = new Button { Text = "Save", Width = 90 };
-        var btnCancel = new Button { Text = "Cancel", Width = 90, DialogResult = DialogResult.Cancel };
+        var btnOk = new Button { Text = "Save", Size = new Size(100, 30)};
+        var btnCancel = new Button { Text = "Cancel", Size = new Size(90, 30), DialogResult = DialogResult.Cancel };
         btnOk.Click += OnSave;
 
         var buttons = new FlowLayoutPanel

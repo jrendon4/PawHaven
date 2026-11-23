@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PawHaven")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5243abe6bda43b8c2bd9ac8a54271ffb9a981795")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+883ba119a84a8f39505877d51ebcf87d271d665d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PawHaven")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PawHaven")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

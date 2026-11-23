@@ -1,7 +1,7 @@
-using System.Drawing; //sizes
-using System.Windows.Forms; //Form, Button, and TextBox
-using PawHaven.Models; //your app’s animal model types, such as Animal and AnimalStatus
-using PawHaven.Services; //your app’s service types, such as AnimalRepository.
+using System.Drawing;
+using System.Windows.Forms;
+using PawHaven.Models;
+using PawHaven.Services;
 
 namespace PawHaven.UI;
 
@@ -16,7 +16,10 @@ public class MainForm : Form
 
     public MainForm()
     {
-        Text = "PawHaven - Animal Shelter Management System";
+        string role = UserSession.CurrentUser?.Role ?? "Guest";
+        string firstName = UserSession.CurrentUser?.FirstName ?? "User";
+
+        Text = $"PawHaven - Animal Shelter Management System ({role}: {firstName})";
         Size = new Size(1000, 600);
         StartPosition = FormStartPosition.CenterScreen;
 
@@ -30,16 +33,19 @@ public class MainForm : Form
 
     private void BuildUi()
     {
-        var btnAdd = new Button { Text = "Add", Size = new Size(100, 30) };
-        var btnEdit = new Button { Text = "Edit", Size = new Size(100, 30) };
-        var btnDelete = new Button { Text = "Delete", Size = new Size(100, 30) };
+        bool isAdmin = UserSession.CurrentUser?.Role == "Admin";
+
+        var btnAdd = new Button { Text = "Add", Size = new Size(90, 30), Visible = isAdmin };
+        var btnEdit = new Button { Text = "Edit", Size = new Size(90, 30), Visible = isAdmin };
+        var btnDelete = new Button { Text = "Delete", Size = new Size(90, 30), Visible = isAdmin };
+        var btnLogout = new Button { Text = "Logout", Size = new Size(90, 30) };
 
         cboFilter.Items.Add("All");
         foreach (var s in Enum.GetValues<AnimalStatus>()) cboFilter.Items.Add(s);
         cboFilter.SelectedIndex = 0;
 
         var toolbar = new FlowLayoutPanel { Dock = DockStyle.Fill, AutoSize = true, Padding = new Padding(8) };
-        toolbar.Controls.AddRange(new Control[] { txtSearch, cboFilter, btnAdd, btnEdit, btnDelete, lblCount });
+        toolbar.Controls.AddRange(new Control[] { txtSearch, cboFilter, btnAdd, btnEdit, btnDelete, lblCount, btnLogout });
 
         grid.Dock = DockStyle.Fill;
         grid.ReadOnly = true;
@@ -62,7 +68,17 @@ public class MainForm : Form
         btnAdd.Click += (_, _) => AddAnimal();
         btnEdit.Click += (_, _) => EditAnimal();
         btnDelete.Click += (_, _) => DeleteAnimal();
-        grid.CellDoubleClick += (_, e) => { if (e.RowIndex >= 0) EditAnimal(); };
+        btnLogout.Click += (_, _) =>
+        {
+            UserSession.Clear();
+            Close();
+        };
+
+        // Only allow double-click editing if logged in as Admin
+        grid.CellDoubleClick += (_, e) =>
+        {
+            if (isAdmin && e.RowIndex >= 0) EditAnimal();
+        };
     }
 
     private void RefreshGrid()

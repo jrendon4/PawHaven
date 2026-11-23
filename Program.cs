@@ -1,4 +1,3 @@
-using System.Windows.Forms;
 using PawHaven.UI;
 
 namespace PawHaven;
@@ -11,7 +10,7 @@ static class Program
         try
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new MainForm());
+            Application.Run(new RoleSelectionForm());
         }
         catch (Exception ex)
         {
